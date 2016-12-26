@@ -1,0 +1,65 @@
+section
+{
+    width:30%;
+    height:600px;
+   background: url("images/register.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: lightskyblue;
+    background-size: 55%;
+    margin-left: 60%;
+    margin-top: 10%;
+    
+}
+
+.namestyle
+{
+    width:40%;
+    height:30px;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+input
+{
+   width:86%;
+   height:30px;
+   font-size: large;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+input[type=radio]
+{
+    width:23%;
+    height:20px;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+label
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+input[type=submit]
+{
+    width:60%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+p
+{
+    text-align: justify;
+}
