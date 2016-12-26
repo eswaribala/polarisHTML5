@@ -1,21 +1,37 @@
 section#header
 {
-    width:80%;
+    width:90%;
     height:100px;
+}
+section#bstrip
+{
+    width:72%;
+    height:30px;
+    margin-left: 14%;
+    margin-top: 5%;
+    background-color: aqua;
+}
+section#blstrip
+{
+    width:72%;
+    height:30px;
+    margin-left: 14%;
+
+    background-color: black;
 }
 section#banner
 {
     width:80%;
     height:400px;
     margin-left: 10%;
-    margin-top: 10%;
+
 
 }
 article
 {
     width:90%;
     height:350px;
-    margin: 5%;
+    margin-left: 5%;
    }
 img
 {
@@ -26,4 +42,41 @@ img
 {
     width:100px;
     height:50px;
+    float:left;
+}
+#header ul
+{
+    margin-left: 40%;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#header ul li{
+    display:inline;
+    list-style: none;
+    margin-left: 2%;
+}
+
+#blstrip ul li{
+    display:inline;
+    list-style: none;
+    color: white;
+}
+
+#blstrip ul
+{
+    margin-top: -1%;
+    font-size: medium;
+    font-weight: bold;
+}
+#bstrip ul li{
+    display:inline;
+    list-style: none;
+    color: black;
+}
+
+#bstrip ul
+{
+    font-size: medium;
+    font-weight: bold;
 }
