@@ -1,0 +1,23 @@
+section
+
+{
+   width:30%;
+    height:200px;
+    margin-left: 40%;
+    margin-top: 10%;
+    border: 2px solid red;
+}
+
+input
+{
+    width:80%;
+    margin: 5%;
+}
+
+input[type=submit]
+{
+   width:40%;
+   background-color: green;
+    color:white;
+
+}
