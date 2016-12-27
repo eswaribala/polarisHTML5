@@ -38,11 +38,46 @@ img
     width:100%;
     height: 300px;
 }
+
+@-webkit-keyframes birdanimation {
+    0% {
+        -webkit-transform:  translate(100px,0px);
+        -webkit-transition: all 8s ease;
+    }
+    50% {
+        -webkit-transform:  translate(100px,200px);
+        -webkit-transition: all 8s ease;
+    }
+   100% {
+        -webkit-transform:  translate(200px,0px);
+        -webkit-transition: all 8s ease;
+    }
+ }
+
+.bird
+{
+    width:100px;
+    height:100px;
+    margin-top: 10%;
+    animation-name: birdanimation;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+
 .logo
 {
     width:100px;
     height:50px;
     float:left;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: all 4.0s ease;
+}
+.logo:hover
+{
+    -webkit-transform: rotateZ(-45deg);
 }
 #header ul
 {
@@ -79,4 +114,31 @@ img
 {
     font-size: medium;
     font-weight: bold;
+}
+
+.intro
+{
+    width:70%;
+    margin-left: 15%;
+
+}
+.intro p
+{
+    text-align: justify;
+    font-size: medium;
+    font-weight: bold;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 20px;
+    column-rule: 5px dotted red;
+}
+.intro p:first-letter
+{
+    font-size: xx-large;
+    color: green;
+}
+.intro p:first-line
+{
+    font-size: large;
+    color: red;
 }
